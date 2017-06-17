@@ -1,0 +1,54 @@
+.slide {
+    height: 500px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table;
+    width: 100%;
+    position: relative;
+    .wrap {
+        width: 100%;
+        text-align: center;
+        font-size: 0px;
+        display: table-cell;
+        vertical-align: middle;
+        position: relative;
+        z-index: 2;
+        margin: 0 auto;
+        .icon {
+            margin-top: 51px;
+            margin-bottom: 20px;
+            line-height: 0;
+            display: none;
+        }
+        .name {
+            font-size: 50px;
+            line-height: 70px;
+            color: #FFFFFF;
+        }
+        .des {
+            margin: 20px auto 40px;
+            font-size: 16px;
+            color: #FFFFFF;
+            line-height: 22px;
+            width: 1000px;
+        }
+        .dashed-opt {
+            color: #FFFFFF;
+            border: 1px solid #FFFFFF;
+        }
+        .btn {
+            display: inline-block;
+            margin: 0px 15px;
+            width: 180px;
+            height: 44px;
+            font-size: 16px;
+            border-radius: 4px;
+            line-height: 30px;
+        }
+        .solid-opt {
+            color: #E43E3E;
+            background: #FFFFFF;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "imitator",
+  "author": "hanan",
+  "version": "0.0.7",
+  "bin": "bin/www",
+  "description": "A server that help you to imitate http response.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanan198501/imitator.git"
+  },
+  "license": "ISC",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "keywords": [
+    "mock",
+    "imitate",
+    "http",
+    "json",
+    "response",
+    "request"
+  ],
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "express": "~4.13.1",
+    "http-proxy": "^1.11.1",
+    "morgan": "~1.6.1",
+    "optimist": "^0.6.1",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "expect.js": "*"
+  }
+}

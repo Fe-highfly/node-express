@@ -1,0 +1,24 @@
+{
+  "name": "kkb",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "mask"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "es6"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "swiper": "^3.4.2"
+  }
+}
